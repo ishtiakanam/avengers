@@ -1,0 +1,43 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url('https://images2.alphacoders.com/131/thumb-1920-1315111.jpg');
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(117, 10, 10);
+}
+
+.photo {
+    width: 80px;
+    border-radius: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-btn {
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+}
+
+.card {
+    width: 250px;
+    height: 350px;
+    border: 1px solid gray;
+}
+
+.home-container {
+    display: flex;
+}
+
+.card-container {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
